@@ -1,0 +1,4 @@
+cd E:\code\Verilog\JMC\第八集程序1仿真波形结果
+
+gtkwave program_episode8_1.vcd
+gtkwave program_episode8_1.gtkw

@@ -1,0 +1,48 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Tue May 19 08:18:36 2020
+[*]
+[dumpfile] "E:\code\Verilog\JMC\第八集程序2仿真波形结果\program_episode8_2.vcd"
+[dumpfile_mtime] "Tue May 19 08:10:58 2020"
+[dumpfile_size] 261878
+[savefile] "E:\code\Verilog\JMC\第八集程序2仿真波形结果\program_episode8_2.gtkw"
+[timestart] 3122
+[size] 1536 801
+[pos] -113 -113
+*-8.000000 3733 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] core_testbench.
+[treeopen] core_testbench.core1.
+[sst_width] 197
+[signals_width] 224
+[sst_expanded] 1
+[sst_vpaned_height] 224
+@28
+core_testbench.core1.rst
+core_testbench.core1.clk
+@22
+core_testbench.core1.alu_in_A[7:0]
+core_testbench.core1.alu_in_B[7:0]
+core_testbench.core1.alu_out[7:0]
+@28
+core_testbench.core1.overflow
+core_testbench.core1.zero
+core_testbench.core1.negative
+@22
+core_testbench.core1.CONTROL_UNIT.PC[3:0]
+@28
+core_testbench.core1.CONTROL_UNIT.state[2:0]
+@22
+core_testbench.core1.CONTROL_UNIT.opcode[3:0]
+@28
+core_testbench.core1.CONTROL_UNIT.ram_read_en
+core_testbench.core1.CONTROL_UNIT.ram_write_en
+@22
+core_testbench.core1.CONTROL_UNIT.ram_data[7:0]
+core_testbench.core1.CONTROL_UNIT.test_Register0[7:0]
+core_testbench.core1.CONTROL_UNIT.test_Register1[7:0]
+core_testbench.core1.CONTROL_UNIT.test_Register2[7:0]
+core_testbench.core1.CONTROL_UNIT.test_Register3[7:0]
+@23
+core_testbench.core1.RAM.ram_13[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

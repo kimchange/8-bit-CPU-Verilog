@@ -1,0 +1,32 @@
+cd E:\code\Verilog\JMC
+
+iverilog alu.v alu.out
+
+iverilog -o alu.out alu.v
+
+iverilog -o ram.out ram.v
+
+iverilog -o control_unit.out control_unit.v
+
+iverilog -o core.out core.v //失败
+
+iverilog -y E:/code/Verilog/JMC -o core.out core.v
+
+//成功
+
+iverilog -o alu.out alu.v
+
+iverilog -o ram.out ram.v
+
+iverilog -o control_unit.out control_unit.v
+
+iverilog -y E:/code/Verilog/JMC -o core.out core.v
+
+iverilog -y E:/code/Verilog/JMC -o core_testbench.out core_testbench.v
+
+//仿真
+
+cd E:\code\Verilog\JMC
+iverilog -y E:/code/Verilog/JMC -o test.out core.v core_testbench.v
+vvp test.out
+gtkwave test.vcd

@@ -1,0 +1,4 @@
+cd E:\code\Verilog\JMC\第七集程序仿真波形结果
+
+
+gtkwave program_episode_7.gtkw
